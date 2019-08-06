@@ -3,28 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-<<<<<<< HEAD
+    <loc>https://jacobbaek.github.io/archives/2019/</loc>
+    <lastmod>2019-08-06T22:19:59+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jacobbaek.github.io/archives/</loc>
-=======
-    <loc>https://jacobbaek.github.io/categories/</loc>
->>>>>>> 184c6b4d75e4c742e1c84c0c9a5bf9ca2d414f25
+    <lastmod>2019-08-06T22:19:59+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jacobbaek.github.io/</loc>
+    <lastmod>2019-08-06T22:19:59+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
+    <loc>https://jacobbaek.github.io/2019/my-first-post/</loc>
+    <lastmod>2019-08-06T22:19:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacobbaek.github.io/post/</loc>
+    <lastmod>2019-08-06T22:19:59+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jacobbaek.github.io/jacobbaek.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-=======
->>>>>>> 184c6b4d75e4c742e1c84c0c9a5bf9ca2d414f25
     <loc>https://jacobbaek.github.io/tags/</loc>
     <priority>0</priority>
   </url>
