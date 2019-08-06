@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+>>>>>>> 184c6b4d75e4c742e1c84c0c9a5bf9ca2d414f25
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on JacobBaek&#39;s Site</title>
@@ -6,8 +10,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
+<<<<<<< HEAD
         <atom:link href="https://jacobbaek.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
 </rss>
+=======
+	<atom:link href="https://jacobbaek.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
+>>>>>>> 184c6b4d75e4c742e1c84c0c9a5bf9ca2d414f25
