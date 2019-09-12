@@ -1,113 +1,70 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>JacobBaek&#39;s Blog  | Posts</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
-    <link rel="stylesheet" href="https://jacobbaek.github.io/css/blog.css" />
-    
-  <link href="https://jacobbaek.github.io/post/index.xml" rel="alternate" type="application/rss+xml" title="JacobBaek&#39;s Blog" />
-  <link href="https://jacobbaek.github.io/post/index.xml" rel="feed" type="application/rss+xml" title="JacobBaek&#39;s Blog" />
-
+<html lang="en-us" dir="ltr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Posts &middot; Welcome to JacobBaek Page</title>
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  
+  
+  
+  
+  <link href="https://jacobbaek.github.io/css/concated.min.css" rel="stylesheet">
+  <link rel="alternate" type="application/rss+xml" href="https://jacobbaek.github.io/post/index.xml" title="Welcome to JacobBaek Page" />
+  
+  
 </head>
-<body>
 
-    
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="https://jacobbaek.github.io/">Home</a>
-        </div>
-    </nav>
-    
+  <body class="list-body">
+    <nav class="nav-bar side-padding">
+  <h1 class="nav-header"><a href="https://jacobbaek.github.io/" class="nav-text">Welcome to JacobBaek Page</a></h1>
+  <div class="hamburger-menu">
+    <button onclick="hamburgerMenuPressed.call(this)" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Menu">
+      <span></span>
+      <span></span>
+    </button>
+    <ul id="menu" class="hamburger-menu-overlay">
+      <li><a href="https://jacobbaek.github.io/" class="hamburger-menu-overlay-link">Home</a></li>
+      
+      
+    </ul>
+  </div>
+</nav>
 
-    
-    <section class="hero is-info is-medium">
-        <div class="hero-body" style="background-image: url(https://jacobbaek.github.io/img/bg-blog.jpg);">
-            <div class="container has-text-centered">
-                <br>
-                <h1 class="title is-size-1">
-                    
-                        Posts
-                    
-                </h1>
-                
-            </div>
-        </div>
-    </section>
-
-
-<div class="container">
-    <div class="section">
-    
-
-
-<div class="columns">
-    <div class="column is-9">
-        <div class="tile is-child box">
-            <div class="content">
-
-            </div>
-        </div>
-    </div>
-    <div class="column is-3">
-        <div class="card">
-    <div class="card-content">
-        <h1 class="title is-5">Tags</h1>
-        <div class="tags">
+    <main class="card-container side-gutter">
+      <header class="list-header">
         
-        </div>          
+        <h1 class="list-header-title">Posts</h1>
+      </header>
+      
+      
+      
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="https://jacobbaek.github.io/2019/my-first-post/" class="card blog-card" rel="bookmark" >
+  
+  <article class="card-body">
+    <h2 class="card-title">My First Post</h2>
+    <p class="card-text"></p>
+    <div class="card-subtext muted-text">
+      <p>Posted <time datetime="2019-08-06">Aug 6, 2019</time></p>
+      
     </div>
-</div><br>
-        <div class="card">
-    <div class="card-content">
-        <h1 class="title is-5">Recent posts</h1>
-        
-            <h1><a href="https://jacobbaek.github.io/2019/my-first-post/">My First Post</a></h1>
-            <time class="has-text-grey-light is-size-7">6 August 2019</time>
-        
-    </div>
-</div>
-    <br>
-                
-
-
+  </article>
+</a>
+    </main>
     
-<br>
-        <div class="card">
-    <div class="card-content">
-        <h1 class="title is-5">Archives</h1>
-        
-            <a href="https://jacobbaek.github.io/archives/2019">2019</a> (1)<br>
-        
-    </div>
-</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+  
+  <script src="https://jacobbaek.github.io/js/core.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
 
-    </div>
-</div>
-
-
-
-    </div>
-</div>
-
-<footer class="footer has-background-grey-darker has-text-white">
-    <div class="content has-text-centered">
-        <p>
-            <span class="icon is-large"><a href="https://twitter.com/" class="mysocial" rel="me"><i class="fab fa-twitter fa-3x"></i></a></span>&nbsp;&nbsp;
-            <span class="icon is-large"><a href="https://www.youtube.com/" class="mysocial" rel="me"><i class="fab fa-youtube fa-3x"></i></a></span>&nbsp;&nbsp;
-            <span class="icon is-large"><a href="https://github.com/" class="mysocial" rel="me"><i class="fab fa-github fa-3x"></i></a></span>&nbsp;&nbsp;
-            <br><br>
-            Copyright &copy; JacobBaek&#39;s Blog 2019 - Theme by <a href="https://jeffprod.com" class="mysocial">JeffProd.com</a>
-            - <a class="mysocial" href="https://jacobbaek.github.io/about">About</a>
-        </p>
-    </div>
-</footer>
-
-<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-</body>
+  </body>
 </html>

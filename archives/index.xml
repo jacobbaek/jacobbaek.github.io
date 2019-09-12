@@ -1,15 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Archives on JacobBaek&#39;s Blog</title>
+    <title>Archives - Welcome to JacobBaek Page</title>
     <link>https://jacobbaek.github.io/archives/</link>
-    <description>Recent content in Archives on JacobBaek&#39;s Blog</description>
+    <description>Recent content in Archives on Welcome to JacobBaek Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Aug 2019 22:19:59 +0900</lastBuildDate>
     
-	<atom:link href="https://jacobbaek.github.io/archives/index.xml" rel="self" type="application/rss+xml" />
-    
+        <atom:link href="https://jacobbaek.github.io/archives/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>2019</title>
@@ -19,6 +17,5 @@
       <guid>https://jacobbaek.github.io/archives/2019/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
