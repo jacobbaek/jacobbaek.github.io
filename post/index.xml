@@ -5,11 +5,18 @@
     <description>Recent content in Posts on Welcome to JacobBaek Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Aug 2019 22:19:59 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jan 2020 23:50:52 +0900</lastBuildDate>
     
         <atom:link href="https://jacobbaek.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Introduce</title>
+      <link>https://jacobbaek.github.io/2020/introduce/</link>
+      <pubDate>Sat, 04 Jan 2020 23:50:52 +0900</pubDate>
+      
+      <guid>https://jacobbaek.github.io/2020/introduce/</guid>
+      <description></description>
+    </item><item>
       <title>My First Post</title>
       <link>https://jacobbaek.github.io/2019/my-first-post/</link>
       <pubDate>Tue, 06 Aug 2019 22:19:59 +0900</pubDate>
